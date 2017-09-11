@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>CSS BOX MODEL</title>
+        <style>
+            body {
+                color: white;
+                margin: 0;
+            }
+            .mainC {
+                background-color: cadetblue;
+                width: 100%;
+                height: auto;
+                padding-bottom: 5%;
+                overflow: hidden;
+            }
+            .leftC {
+                background-color: red;
+                width: 28%;
+                height: 200px;
+                float: left;
+                padding-left: 2%;
+                margin-right: 2%;
+                border: 5px solid blue;
+                -webkit-box-sizing: border-box;
+            }
+            .rightC {
+                background-color: brown;
+                width: 70%;
+                height: 200px;
+                float: right;
+                padding-left: 2%;
+                /*margin: 10%;*/
+                border: 5px solid blue;
+                -webkit-box-sizing: border-box;
+            }
+        
+        </style>
+    </head>
+    <body>
+        <div class="mainC">
+            <h1>THE CSS BOX MODEL</h1>
+            <div class="leftC">
+                <h1>This is the left container</h1>
+            </div>
+            <div class="rightC">
+                <h1>This is the right container</h1>
+            </div>
+        </div>
+    
+        
+    </body>
+</html>
